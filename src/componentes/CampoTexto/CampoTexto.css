@@ -1,0 +1,24 @@
+.campo-texto {
+    margin: 24px 0;
+}
+
+.campo-texto label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.campo-texto input {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border-radius: 24px;
+    /* widht 100% pois sera colocado dentro de um novo container,
+    que eh um novo componente pai */
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+    /* box-sizing diz para o css levar em consideracao todo o bloco */
+}
